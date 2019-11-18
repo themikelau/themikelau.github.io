@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+layout: page
+title: "research"
+permalink: /research/
 
-You can use the [editor on GitHub](https://github.com/themikelau/themikelau.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+I am primarily a theorist and am interested in understanding binary star astrophysics using a range of approaches: Monte Carlo population synthesis, analytical calculations, back-of-the-envelope estimates, and hydrodynamical simulations. In particular, I am interested in studying progenitors of gravitational wave mergers and the formation of double compact objects.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## _COMPAS_
+My research [group](https://compas.science/) is developing and using the *Compact Object Mergers: Population Astrophysics and Statistics* (COMPAS) suite, which simulates the evolution of binary stars rapidly (taking only around a second to evolve one binary system from birth to death). This evolution is unlike that of single stars, as binaries interact in many ways. One star may transfer material to another (mass transfer). If runaway transfer occurs, the stellar material may engulf the binary system (common-envelope phase). Tidal interactions may also affect the spin of the stars. Binary orbits shrink and circularise as they radiate gravitational waves, ending in a merger (and [Nobel prize](https://www.nobelprize.org/prizes/physics/2017/press-release/) :) ).
 
-### Markdown
+[//]: <> (Insert picture of binary evolution.)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Detecting Double Neutron Stars with *LISA* (Lau et al., 2019; [arXiv:1910.12422](https://arxiv.org/abs/1910.12422))
+I have led a project to understand the population of double neutron stars expected to be seen by *LISA*. The [Laser Interferometer Space Antenna (LISA)](https://lisa.nasa.gov/) is a space-based gravitational wave interferometer with planned launch in the 2030s. It consists of three satellites in heliocentric orbit, arranged in an equilateral triangle constellation. Laser beams connect these satellites, forming 2.5 million kilometre arms that will measure distortions in spacetime caused by passing gravitational waves.
 
-```markdown
-Syntax highlighted code block
+My collaborators and I used a synthetic population of double neutron stars evolved with COMPAS, and tracked the gravitational wave-driven evolution of these systems through the LISA frequency window. For our particular assumptions about binary evolution physics and the double neutron star merger rate, we estimate that LISA may be able to detect ~35 double neutron stars over a four-year mission lifetime, with signal-to-noise ratios above 8 and orbital frequencies of 1 mHz. Most of these double neutron stars will be Galactic, but ~1 system may also be detected in the Large or Small Magellanic Cloud. 
 
-# Header 1
-## Header 2
-### Header 3
+Interestingly, we also think that LISA may be able to detect double neutron stars with significantly eccentric orbits (e~0.1). Eccentricities are difficult to detect with the LIGO and Virgo interferometers, which are sensitive to much higher frequency gravitational waves (1-1000 Hz). At such high frequencies, orbits of binary compact objects have to a very good approximation completely circularised through gravitational radiation reaction. We also demonstrated that the eccentricity distribution of double neutron stars may inform us about the formation channel of double neutron stars, such as the stability of case BB mass transfer.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/themikelau/themikelau.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[//]: <> (LISA DNSs animation)

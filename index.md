@@ -1,37 +1,4 @@
-## Welcome to GitHub Pages
+I am a PhD student at the [Monash Centre for Astrophysics](https://www.monash.edu/moca) (MoCA), Monash University, hoping to further our understanding of the life and death of binary stars. I am a proud member of the [COMPAS](https://compas.science/) research team, which is a collaborative effort to study isolated binary evolution through rapid population synthesis of massive binary stars. I am also a member of [OzGrav](https://www.ozgrav.org/). You are invited to check out my [research interests](https://themikelau.github.io/research).
 
-You can use the [editor on GitHub](https://github.com/themikelau/themikelau.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/themikelau/themikelau.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Why Care About Binaries?
+Since the dawn of civilisation, the night sky has intrigued humans with its wealth of weird, unexplained phenomena. For many of these phenomena, our best theories and models invoke interactions between stars in a _binary_. Some of my favourites are type Ia supernovae, X-ray binaries, short gamma-ray bursts, tidal disruption events, luminous red novae, and, of course, gravitational waves from merging compact objects. Moreover, stars, much like humans, like having a companion---around 70% of observed stars are found to be in a binary system. The physics of binary (and higher multiplicity) stellar systems is therefore an extensive and vital research area.
