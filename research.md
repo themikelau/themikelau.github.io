@@ -1,3 +1,4 @@
+## Research
 I am primarily a theorist and am interested in understanding binary star astrophysics using a range of approaches: Monte Carlo population synthesis, analytical calculations, back-of-the-envelope estimates, and hydrodynamical simulations. In particular, I am interested in studying progenitors of gravitational wave mergers and the formation of double compact objects.
 
 ### _COMPAS_
