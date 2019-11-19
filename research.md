@@ -15,4 +15,7 @@ Interestingly, we also think that LISA may be able to detect double neutron star
 
 {% include image.html url="https://media.giphy.com/media/JsPkikS149REtcUSU2/giphy.gif" description="Figure 1: This is an animation I have made that shows the evolution due to gravitational radiation reaction of double neutron stars in frequency-eccentricity space over 10 Gyr. Each point represents a double neutron star simulated with COMPAS (Vigna-Gomez et al., 2018). A shear flow is observed that reflects faster evolution for high eccentricity (and high frequency) orbits."%}
 
-{% include image.html url="/images/LISAnoiseCurve.png" description="Figure 2: Plot of the LISA noise curve with 35 Monte Carlo realisations of LISA double neutron star sources (filled circles). The green circles correspond to sources in the Large Magellanic Cloud. The height of a dot above the solid curve gives the source signal-to-noise ratio."%}
+ <figure>
+  <img src="/images/LISAnoiseCurve.png" alt="LISA noise curve" style="width:100%">
+  <figcaption>Figure 2: Plot of the LISA noise curve with 35 Monte Carlo realisations of LISA double neutron star sources (filled circles). The green circles correspond to sources in the Large Magellanic Cloud. The height of a dot above the solid curve gives the source signal-to-noise ratio.</figcaption>
+</figure> 
