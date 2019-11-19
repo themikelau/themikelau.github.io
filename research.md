@@ -4,7 +4,10 @@ I am primarily a theorist and am interested in understanding binary star astroph
 ### COMPAS
 My research group is developing and using the *Compact Object Mergers: Population Astrophysics and Statistics* ([COMPAS](https://compas.science/)) suite, which simulates the evolution of binary stars rapidly (taking only around a second to evolve one binary system from birth to death). This evolution is unlike that of single stars, as binaries interact in many ways. One star may transfer material to another (mass transfer). If runaway transfer occurs, the stellar material may engulf the binary system (common-envelope phase). Tidal interactions may also affect the spin of the stars. Binary orbits shrink and circularise as they radiate gravitational waves, ending in a merger (and [Nobel prize](https://www.nobelprize.org/prizes/physics/2017/press-release/) :) ).
 
-[//]: <> (Insert picture of binary evolution.)
+<figure>
+  <img src="/images/common-envelope-evolution.png" alt="Common envelope evolution" style="width:40%">
+  <figcaption>A cartoon of common envelope evolution of a binary star system. (Author: Philip D. Hall)</figcaption>
+</figure> 
 
 ### Detecting Double Neutron Stars with *LISA* (Lau et al., 2019; [arXiv:1910.12422](https://arxiv.org/abs/1910.12422))
 I have led a project to understand the population of double neutron stars expected to be seen by *LISA*. The [Laser Interferometer Space Antenna (LISA)](https://lisa.nasa.gov/) is a space-based gravitational wave interferometer with planned launch in the 2030s. It consists of three satellites in heliocentric orbit, arranged in an equilateral triangle constellation. Laser beams connect these satellites, forming 2.5 million kilometre arms measure distortions in spacetime caused by passing gravitational waves.
@@ -15,10 +18,10 @@ Interestingly, we also think that LISA may be able to detect double neutron star
 
 <figure>
   <img src="/images/LISAanimation.gif" alt="Frequency-eccentricity evolution" style="width:70%">
-  <figcaption>Figure 1: This is an animation I have made that shows the evolution due to gravitational radiation reaction of double neutron stars in frequency-eccentricity space over 10 Gyr. Each point represents a double neutron star simulated with COMPAS (Vigna-Gomez et al., 2018). A shear flow is observed that reflects faster evolution for high eccentricity (and high frequency) orbits.</figcaption>
+  <figcaption>This is an animation I have made that shows the evolution due to gravitational radiation reaction of double neutron stars in frequency-eccentricity space over 10 Gyr. Each point represents a double neutron star simulated with COMPAS (Vigna-Gomez et al., 2018). A shear flow is observed that reflects faster evolution for high eccentricity (and high frequency) orbits.</figcaption>
 </figure> 
 
  <figure>
   <img src="/images/LISAnoiseCurve.png" alt="LISA noise curve" style="width:70%">
-  <figcaption>Figure 2: Plot of the LISA noise curve with 35 Monte Carlo realisations of LISA double neutron star sources (filled circles). The green circles correspond to sources in the Large Magellanic Cloud. The height of a dot above the solid curve gives the source signal-to-noise ratio.</figcaption>
+  <figcaption>Plot of the LISA noise curve with 35 Monte Carlo realisations of LISA double neutron star sources (filled circles). The green circles correspond to sources in the Large Magellanic Cloud. The height of a dot above the solid curve gives the source signal-to-noise ratio.</figcaption>
 </figure> 

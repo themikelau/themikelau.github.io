@@ -2,3 +2,8 @@ I am a PhD student at the [Monash Centre for Astrophysics](https://www.monash.ed
 
 ### Why care about binaries?
 Since the dawn of civilisation, the night sky has intrigued humans with its wealth of weird, unexplained phenomena. For many of these phenomena, our best theories and models invoke interactions between stars in a _binary_. Some of my favourites are type Ia supernovae, X-ray binaries, short gamma-ray bursts, tidal disruption events, luminous red novae, and, of course, gravitational waves from merging compact objects. Moreover, stars, much like humans, like having a companion---around 70% of observed stars are found to be in a binary system. The physics of binary (and higher multiplicity) stellar systems is therefore an extensive and vital research area.
+
+<figure>
+  <img src="/images/binary-neutron-star.jpg" alt="binary-neutron-star" style="width:70%">
+  <figcaption>Artist's impression of a double neutron star system. (Author: ESO/L. Calçada/M. Kornmesser)</figcaption>
+</figure> 
