@@ -13,6 +13,8 @@ My collaborators and I used a synthetic population of double neutron stars evolv
 
 Interestingly, we also think that LISA may be able to detect double neutron stars with significantly eccentric orbits (e~0.1). Eccentricities are difficult to detect with the LIGO and Virgo interferometers, which are sensitive to much higher frequency gravitational waves (1-1000 Hz). At such high frequencies, orbits of binary compact objects have to a very good approximation completely circularised through gravitational radiation reaction. We also demonstrated that the eccentricity distribution of double neutron stars may inform us about the formation channel of double neutron stars, such as the stability of case BB mass transfer.
 
+{% include image.html url="https://media.giphy.com/media/JsPkikS149REtcUSU2/giphy.gif" description="Evolution of LISA DNSs through frequency-eccentricity space" %}
+
 ![Evolution of LISA DNSs through frequency-eccentricity space](https://media.giphy.com/media/JsPkikS149REtcUSU2/giphy.gif)
 
 [//]: <> (LISA DNSs animation)
