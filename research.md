@@ -5,8 +5,9 @@ I am primarily a theorist and am interested in understanding binary star astroph
 My research group is developing and using the *Compact Object Mergers: Population Astrophysics and Statistics* ([COMPAS](https://compas.science/)) suite, which simulates the evolution of binary stars rapidly (taking only around a second to evolve one binary system from birth to death). This evolution is unlike that of single stars, as binaries interact in many ways. One star may transfer material to another (mass transfer). If runaway transfer occurs, the stellar material may engulf the binary system (common-envelope phase). Tidal interactions may also affect the spin of the stars. Binary orbits shrink and circularise as they radiate gravitational waves, ending in a merger (and [Nobel prize](https://www.nobelprize.org/prizes/physics/2017/press-release/) :) ).
 
 <figure>
-  <img src="/images/common-envelope-evolution.png" alt="Common envelope evolution" style="width:40%">
-  <figcaption>A cartoon of common envelope evolution of a binary star system. (Author: Philip D. Hall)</figcaption>
+  <img src="/images/common-envelope-evolution.png" alt="Common envelope evolution" style="width:100%" class="center">
+  <figcaption>Cartoon of a double neutron star formation channel (see Bhattacharya & van den Heuvel (1991), Tauris & van den Heuvel (2006)).
+  </figcaption>
 </figure> 
 
 ### Detecting Double Neutron Stars with *LISA* (Lau et al., 2019; [arXiv:1910.12422](https://arxiv.org/abs/1910.12422))
@@ -17,11 +18,11 @@ My collaborators and I used a synthetic population of double neutron stars evolv
 Interestingly, we also think that LISA may be able to detect double neutron stars with significantly eccentric orbits (e ~ 0.1). Eccentricities are difficult to detect with the LIGO and Virgo interferometers, which are sensitive to much higher frequency gravitational waves (1 - 1000 Hz). At such high frequencies, orbits of binary compact objects have to a very good approximation completely circularised through gravitational radiation reaction. We also demonstrated that the eccentricity distribution of double neutron stars may inform us about the formation channel of double neutron stars, such as the stability of the case BB mass transfer episode.
 
 <figure>
-  <img src="/images/LISAanimation.gif" alt="Frequency-eccentricity evolution" style="width:70%">
+  <img src="/images/LISAanimation.gif" alt="Frequency-eccentricity evolution" style="width:70%" class="center">
   <figcaption>This is an animation I have made that shows the evolution due to gravitational radiation reaction of double neutron stars in frequency-eccentricity space over 10 Gyr. Each point represents a double neutron star simulated with COMPAS (Vigna-Gomez et al., 2018). A shear flow is observed that reflects faster evolution for high eccentricity (and high frequency) orbits.</figcaption>
 </figure> 
 
  <figure>
-  <img src="/images/LISAnoiseCurve.png" alt="LISA noise curve" style="width:70%">
+  <img src="/images/LISAnoiseCurve.png" alt="LISA noise curve" style="width:70%" class="center">
   <figcaption>Plot of the LISA noise curve with 35 Monte Carlo realisations of LISA double neutron star sources (filled circles). The green circles correspond to sources in the Large Magellanic Cloud. The height of a dot above the solid curve gives the source signal-to-noise ratio.</figcaption>
 </figure> 
