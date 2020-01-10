@@ -10,7 +10,7 @@ My research group is developing and using the *Compact Object Mergers: Populatio
   </figcaption>
 </figure> 
 
-### Detecting Double Neutron Stars with *LISA* (Lau et al., 2019; [arXiv:1910.12422](https://arxiv.org/abs/1910.12422))
+### Detecting Double Neutron Stars with *LISA* (Lau et al., 2020 (MNRAS); [arXiv:1910.12422](https://arxiv.org/abs/1910.12422))
 I have led a project to understand the population of double neutron stars expected to be seen by *LISA*. The [Laser Interferometer Space Antenna (LISA)](https://lisa.nasa.gov/) is a space-based gravitational wave interferometer with planned launch in the 2030s. It consists of three satellites in heliocentric orbit, arranged in an equilateral triangle constellation. Laser beams connect these satellites, forming 2.5 million kilometre arms that measure distortions in spacetime caused by passing gravitational waves.
 
 My collaborators and I used a synthetic population of double neutron stars evolved with COMPAS, and tracked the gravitational wave-driven evolution of these systems through the LISA frequency window. For our particular assumptions about binary evolution physics and the double neutron star merger rate, we estimate that LISA may be able to detect ~ 35 double neutron stars over a four-year mission, with signal-to-noise ratios above 8 and characteristic orbital frequencies of 1 mHz. Most of these double neutron stars will be Galactic, but ~ 1 system may also be detected in the Large and Small Magellanic Cloud. 
