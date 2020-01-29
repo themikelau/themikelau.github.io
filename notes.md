@@ -3,3 +3,4 @@ I find that writing notes helps me learn things. Sometimes, more effort is put i
 
 [The Viscosity Problem and the Magnetorotational Instability](https://themikelau.github.io/notes/mri.pdf)  
 [The Darwin Instability](https://themikelau.github.io/notes/darwin.pdf)
+[How Eccentric are LIGO/Virgo Double Neutron Stars?](https://themikelau.github.io/notes/LIGOeccentricity.pdf)
