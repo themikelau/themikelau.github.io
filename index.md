@@ -9,3 +9,6 @@ Since the dawn of civilisation, the night sky has intrigued humans with its weal
   <img src="/images/binary-neutron-star.jpg" alt="binary-neutron-star" style="width:70%">
   <figcaption>Artist's impression of a double neutron star system. (Author: ESO/L. Calçada/M. Kornmesser)</figcaption>
 </figure> 
+
+### Media
+ <https://www.ozgrav.org/news/future-space-detector-lisa-could-reveal-the-secret-life-and-death-of-stars>
