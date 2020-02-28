@@ -11,4 +11,5 @@ Since the dawn of civilisation, the night sky has intrigued humans with its weal
 </figure> 
 
 ### Media
- <https://www.ozgrav.org/news/future-space-detector-lisa-could-reveal-the-secret-life-and-death-of-stars>
+ <https://www.ozgrav.org/news/future-space-detector-lisa-could-reveal-the-secret-life-and-death-of-stars>  
+ <https://phys.org/news/2020-02-future-space-detector-lisa-reveal.html>
