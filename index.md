@@ -13,6 +13,8 @@ Since the dawn of civilisation, the night sky has intrigued humans with its weal
 ### Media
  <https://spaceaustralia.com/feature/gravitational-waves-space-reveal-secret-lives-dead-stars>  
 
+ <https://interestingengineering.com/lisa-may-reveal-the-secret-lives-and-deaths-of-stars-with-gravitational-waves>
+
  <https://www.ozgrav.org/news/future-space-detector-lisa-could-reveal-the-secret-life-and-death-of-stars>  
  
  <https://phys.org/news/2020-02-future-space-detector-lisa-reveal.html>
