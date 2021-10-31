@@ -1,6 +1,6 @@
 ## Notes
-I find that writing notes helps me learn things. Sometimes, more effort is put into nicely formatting these notes, and I hope they can be of use to others too. However, let me be clear that no original ideas are presented in these notes, which often borrow heavily from a few references.
+Here are selected notes that I have written. They borrow heavily from a few references and do not present any original ideas.
 
-[The Viscosity Problem and the Magnetorotational Instability](https://themikelau.github.io/notes/mri.pdf)  
-[The Darwin Instability](https://themikelau.github.io/notes/darwin.pdf)  
-[How Eccentric are LIGO/Virgo Double Neutron Stars?](https://themikelau.github.io/notes/LIGOeccentricity.pdf)
+[The viscosity problem and the magnetorotational instability](https://themikelau.github.io/notes/mri.pdf)  
+[The Darwin instability](https://themikelau.github.io/notes/darwin.pdf)  
+[How eccentric are LIGO/Virgo double neutron stars?](https://themikelau.github.io/notes/LIGOeccentricity.pdf)
