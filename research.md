@@ -1,16 +1,32 @@
 ## Research
-I am primarily a theorist and am interested in understanding binary star astrophysics using a range of approaches: Monte Carlo population synthesis, analytical calculations, back-of-the-envelope estimates, and hydrodynamical simulations. In particular, I am interested in studying progenitors of gravitational wave mergers and the formation of double compact objects.
+I study binary star evolution using rapid population synthesis, 1D stellar modelling, and detailed 3D hydrodynamics.
 
 ### COMPAS
-My research group is developing and using the *Compact Object Mergers: Population Astrophysics and Statistics* ([COMPAS](https://compas.science/)) suite, which simulates the evolution of binary stars rapidly (taking only around a second to evolve one binary system from birth to death). This evolution is unlike that of single stars, as binaries interact in many ways. One star may transfer material to another (mass transfer). If runaway transfer occurs, the stellar material may engulf the binary system (common-envelope phase). Tidal interactions may also affect the spin of the stars. Binary orbits shrink and circularise as they radiate gravitational waves, ending in a merger (and [Nobel prize](https://www.nobelprize.org/prizes/physics/2017/press-release/) :) ).
+I am part of the core development team for [COMPAS](https://ui.adsabs.harvard.edu/abs/2021arXiv210910352T/abstract), which is a publicly-available ([link to github repository](https://github.com/TeamCOMPAS/COMPAS)) rapid stellar and binary population synthesis code. With COMPAS, one can generate a large population of binary (or single) stars rapidly, taking only a tenth of a second to evolve one binary system from birth to death on a consumer laptop. This allows multiple populations to be simulated with different assumptions on binary evolution physics. I work with the COMPAS team to constrain binary evolution physics by comparing simulated populations with observations, such as gravitational waves produced by compact binaries.
 
 <figure>
   <img src="/images/common-envelope-evolution.png" alt="Common envelope evolution" style="width:100%" class="center">
-  <figcaption>Cartoon of a double neutron star formation channel (see Bhattacharya & van den Heuvel (1991), Tauris & van den Heuvel (2006)).
+  <figcaption>Cartoon of a double neutron star formation channel.
   </figcaption>
 </figure> 
 
-### Detecting Double Neutron Stars with *LISA* (Lau et al., 2020 (MNRAS); [arXiv:1910.12422](https://arxiv.org/abs/1910.12422))
+### Phantom
+I am a developer of the smoothed particle hydrodynamics and magnetohydrodynamics code [Phantom](https://ui.adsabs.harvard.edu/abs/2018PASA...35...31P/abstract) (publicly available via its [repository](https://github.com/danieljprice/phantom)). Phantom has been used for simulations of star-formation, protoplanetary disks, accretion disks, tidal disruption, and more. I focus on using Phantom to produced detailed, 3D simulations of the common-envelope phase in binary evolution.
+<br>
+<br>
+### Common-envelope evolution in massive stars
+I led an effort to simulate a common-envelope event involving a red supergiant donor star with 3D hydrodynamics. The common-envelope phase was originally proposed to explain the existence of tight, evolved binary stars whose current separation is many times smaller than the large sizes they must previously have had on the giant branch. Common-envelope evolution solves this so-called *separation problem* by allowing close compact binaries to form from initially wide stars, and is now considered a standard scenario for forming the progenitors of X-ray binaries, double neutron stars, type Ia supernovae, and compact binary coalescences.
+
+<!-- <figure>
+  <img src="/images/common-envelope-evolution.png" alt="Common envelope evolution" style="width:100%" class="center">
+  <figcaption>Cartoon of a double neutron star formation channel. More videos can be found [here](https://themikelau.github.io/RSG_CE)
+  </figcaption>
+</figure>  -->
+
+Previous simulations on the common-envelope phase have almost entirely focused on low mass donors (1-2 solar masses). In this study, we instead simulated a massive star common-envelope, using the code Phantom (see [videos](https://themikelau.github.io/RSG_CE) of our simulations). We found that the internal energy of the star may help eject the common envelope. Particularly, including radiation thermal energy, which is only significant in massive stars, ejects 60% more mass and may increase the final separation by around 10%. When hydrogen and helium recombination are also modelled, we find that at least three quarters, and possibly the entire envelope, may be unbound. The final separation further increases by almost 20%.
+<br>
+<br>
+### [Detecting Double Neutron Stars with *LISA*](https://ui.adsabs.harvard.edu/abs/2020MNRAS.492.3061L/abstract)
 I have led a project to understand the population of double neutron stars expected to be seen by *LISA*. The [Laser Interferometer Space Antenna (LISA)](https://lisa.nasa.gov/) is a space-based gravitational wave interferometer with planned launch in the 2030s. It consists of three satellites in heliocentric orbit, arranged in an equilateral triangle constellation. Laser beams connect these satellites, forming 2.5 million kilometre arms that measure distortions in spacetime caused by passing gravitational waves.
 
 My collaborators and I used a synthetic population of double neutron stars evolved with COMPAS, and tracked the gravitational wave-driven evolution of these systems through the LISA frequency window. For our particular assumptions about binary evolution physics and the double neutron star merger rate, we estimate that LISA may be able to detect ~ 35 double neutron stars over a four-year mission, with signal-to-noise ratios above 8 and characteristic orbital frequencies of 1 mHz. Most of these double neutron stars will be Galactic, but ~ 1 system may also be detected in the Large and Small Magellanic Cloud. 
@@ -26,3 +42,9 @@ Interestingly, we also think that LISA may be able to detect double neutron star
   <img src="/images/LISAnoiseCurve.png" alt="LISA noise curve" style="width:70%" class="center">
   <figcaption>Plot of the LISA noise curve with 35 Monte Carlo realisations of LISA double neutron star sources (filled circles). The green circles correspond to sources in the Large Magellanic Cloud. The height of a dot above the solid curve gives the source signal-to-noise ratio.</figcaption>
 </figure> 
+
+Links to media articles:  
+<https://spaceaustralia.com/feature/gravitational-waves-space-reveal-secret-lives-dead-stars>  
+<https://interestingengineering.com/lisa-may-reveal-the-secret-lives-and-deaths-of-stars-with-gravitational-waves>  
+<https://www.ozgrav.org/news/future-space-detector-lisa-could-reveal-the-secret-life-and-death-of-stars>  
+<https://phys.org/news/2020-02-future-space-detector-lisa-reveal.html>
