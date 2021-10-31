@@ -1,4 +1,4 @@
-I am a PhD student in the [School of Physics & Astronomy](https://www.monash.edu/science/schools/physics) at Monash University. My main research interests are on binary star evolution and the formation of gravitational wave sources.
+I am a PhD student in the [School of Physics & Astronomy](https://www.monash.edu/science/schools/physics) at Monash University. My main research interests are in binary star evolution and the formation of gravitational wave sources.
 
 I am a proud member of the [COMPAS](https://compas.science/) team, which is a collaborative effort to study isolated binary evolution through rapid population synthesis of massive binary stars. I am also a member of [OzGrav](https://www.ozgrav.org/) and an associate member of the [LISA Consortium](https://www.elisascience.org/).
 

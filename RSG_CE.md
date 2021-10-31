@@ -2,6 +2,8 @@
 
 These videos are associated with the publication *Common envelopes in massive stars: The role of radiation pressure and recombination energy in ejecting red supergiant envelopes* (Lau et al., 2021).
 
+For each simulation, we show the density cross-section in the equatorial/orbital plane, in the meridional plane, and in a meridional plane instantaneously co-rotating with the stellar cores. 
+
  <figure>
       <video class="center" src="/publication_videos/500k_3M_gasrad_surface_render.mp4" width="480" controls playsinline muted >Sorry, your browser doesn't support embedded videos</video>
       <figcaption>Gas + radiation equation of state with 3 solar mass companion (surface render, medium resolution).</figcaption>
@@ -12,12 +14,42 @@ These videos are associated with the publication *Common envelopes in massive st
       <figcaption>Gas + radiation equation of state with 3 solar mass companion (equatorial plane).</figcaption>
  </figure>
  <br>
-  <figure>
+ <figure>
       <video class="center" src="/publication_videos/2M_3M_gasrad_xz.mp4" width="480" controls playsinline muted >Sorry, your browser doesn't support embedded videos</video>
       <figcaption>Gas + radiation equation of state with 3 solar mass companion (meridional plane).</figcaption>
+ </figure>
+ <br>
+ <figure>
+      <video class="center" src="/publication_videos/2M_3M_gasrad_xz_corotate.mp4" width="480" controls playsinline muted >Sorry, your browser doesn't support embedded videos</video>
+      <figcaption>Gas + radiation equation of state with 3 solar mass companion (meridional plane, corotating frame).</figcaption>
+ </figure>
+ <br>
+ <figure>
+      <video class="center" src="/publication_videos/2M_3M_ideal_xy.mp4" width="480" controls playsinline muted >Sorry, your browser doesn't support embedded videos</video>
+      <figcaption>Ideal gas equation of state with 3 solar mass companion (equatorial plane).</figcaption>
+ </figure>
+ <br>
+  <figure>
+      <video class="center" src="/publication_videos/2M_3M_ideal_xz.mp4" width="480" controls playsinline muted >Sorry, your browser doesn't support embedded videos</video>
+      <figcaption>Ideal gas equation of state with 3 solar mass companion (meridional plane).</figcaption>
+ </figure>
+ <br>
+  <figure>
+      <video class="center" src="/publication_videos/2M_3M_ideal_xz_corotate.mp4" width="480" controls playsinline muted >Sorry, your browser doesn't support embedded videos</video>
+      <figcaption>Ideal gas equation of state with 3 solar mass companion (meridional plane, corotating frame).</figcaption>
  </figure>
  <br>
   <figure>
       <video class="center" src="/publication_videos/2M_3M_mesa_xy.mp4" width="480" controls playsinline muted >Sorry, your browser doesn't support embedded videos</video>
       <figcaption>Full equation of state with 3 solar mass companion (equatorial plane).</figcaption>
+ </figure>
+ <br>
+ <figure>
+      <video class="center" src="/publication_videos/2M_3M_mesa_xz.mp4" width="480" controls playsinline muted >Sorry, your browser doesn't support embedded videos</video>
+      <figcaption>Full equation of state with 3 solar mass companion (meridional plane).</figcaption>
+ </figure>
+ <br>
+  <figure>
+      <video class="center" src="/publication_videos/2M_3M_mesa_xz_corotate.mp4" width="480" controls playsinline muted >Sorry, your browser doesn't support embedded videos</video>
+      <figcaption>Full equation of state with 3 solar mass companion (meridional plane, corotating frame).</figcaption>
  </figure>

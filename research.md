@@ -6,22 +6,21 @@ I am part of the core development team for [COMPAS](https://ui.adsabs.harvard.ed
 
 <figure>
   <img src="/images/common-envelope-evolution.png" alt="Common envelope evolution" style="width:100%" class="center">
-  <figcaption>Cartoon of a double neutron star formation channel.
+  <figcaption>Illustration of the different phases of double neutron star formation via the common-envelope channel.
   </figcaption>
 </figure> 
 
 ### Phantom
-I am a developer of the smoothed particle hydrodynamics and magnetohydrodynamics code [Phantom](https://ui.adsabs.harvard.edu/abs/2018PASA...35...31P/abstract) (publicly available via its [repository](https://github.com/danieljprice/phantom)). Phantom has been used for simulations of star-formation, protoplanetary disks, accretion disks, tidal disruption, and more. I focus on using Phantom to produced detailed, 3D simulations of the common-envelope phase in binary evolution.
+I am a developer of the smoothed particle hydrodynamics and magnetohydrodynamics code [Phantom](https://ui.adsabs.harvard.edu/abs/2018PASA...35...31P/abstract) (publicly available via its [repository](https://github.com/danieljprice/phantom)). Phantom has been used for simulations of star-formation, protoplanetary disks, accretion disks, tidal disruption, and more. I focus on using Phantom to produce 3D simulations of the common-envelope phase in binary evolution.
 <br>
 <br>
 ### Common-envelope evolution in massive stars
 I led an effort to simulate a common-envelope event involving a red supergiant donor star with 3D hydrodynamics. The common-envelope phase was originally proposed to explain the existence of tight, evolved binary stars whose current separation is many times smaller than the large sizes they must previously have had on the giant branch. Common-envelope evolution solves this so-called *separation problem* by allowing close compact binaries to form from initially wide stars, and is now considered a standard scenario for forming the progenitors of X-ray binaries, double neutron stars, type Ia supernovae, and compact binary coalescences.
 
-<!-- <figure>
-  <img src="/images/common-envelope-evolution.png" alt="Common envelope evolution" style="width:100%" class="center">
-  <figcaption>Cartoon of a double neutron star formation channel. More videos can be found [here](https://themikelau.github.io/RSG_CE)
-  </figcaption>
-</figure>  -->
+<figure>
+    <video class="center" src="/publication_videos/500k_3M_gasrad_surface_render.mp4" width="480" controls autoplay playsinline muted >Sorry, your browser doesn't support embedded videos</video>
+    <figcaption>Simulation of common-envelope phase with a 12 solar mass red supergiant donor with a 3 solar mass companion (Lau et al., 2021). See more simulation videos [here](https://themikelau.github.io/RSG_CE).</figcaption>
+</figure>
 
 Previous simulations on the common-envelope phase have almost entirely focused on low mass donors (1-2 solar masses). In this study, we instead simulated a massive star common-envelope, using the code Phantom (see [videos](https://themikelau.github.io/RSG_CE) of our simulations). We found that the internal energy of the star may help eject the common envelope. Particularly, including radiation thermal energy, which is only significant in massive stars, ejects 60% more mass and may increase the final separation by around 10%. When hydrogen and helium recombination are also modelled, we find that at least three quarters, and possibly the entire envelope, may be unbound. The final separation further increases by almost 20%.
 <br>
@@ -29,9 +28,9 @@ Previous simulations on the common-envelope phase have almost entirely focused o
 ### [Detecting Double Neutron Stars with *LISA*](https://ui.adsabs.harvard.edu/abs/2020MNRAS.492.3061L/abstract)
 I have led a project to understand the population of double neutron stars expected to be seen by *LISA*. The [Laser Interferometer Space Antenna (LISA)](https://lisa.nasa.gov/) is a space-based gravitational wave interferometer with planned launch in the 2030s. It consists of three satellites in heliocentric orbit, arranged in an equilateral triangle constellation. Laser beams connect these satellites, forming 2.5 million kilometre arms that measure distortions in spacetime caused by passing gravitational waves.
 
-My collaborators and I used a synthetic population of double neutron stars evolved with COMPAS, and tracked the gravitational wave-driven evolution of these systems through the LISA frequency window. For our particular assumptions about binary evolution physics and the double neutron star merger rate, we estimate that LISA may be able to detect ~ 35 double neutron stars over a four-year mission, with signal-to-noise ratios above 8 and characteristic orbital frequencies of 1 mHz. Most of these double neutron stars will be Galactic, but ~ 1 system may also be detected in the Large and Small Magellanic Cloud. 
+My collaborators and I used COMPAS to produce a synthetic population of double neutron stars, and tracked their evolution through the LISA frequency window driven by gravitational radiation. For our assumed model of binary evolution physics and the Galactic double neutron star merger rate, we estimate that LISA may be able to detect ~ 35 double neutron stars over a four-year mission, with signal-to-noise ratios above 8 and characteristic orbital frequencies of 1 mHz. Most of these double neutron stars will be Galactic, but ~ 1 system may also be detected in the Large and Small Magellanic Cloud. 
 
-Interestingly, we also think that LISA may be able to detect double neutron stars with significantly eccentric orbits (e ~ 0.1). Eccentricities are difficult to detect with the LIGO and Virgo interferometers, which are sensitive to much higher frequency gravitational waves (1 - 1000 Hz). At such high frequencies, orbits of binary compact objects have to a very good approximation completely circularised through gravitational radiation reaction. We also demonstrated that the eccentricity distribution of double neutron stars may inform us about the formation channel of double neutron stars, such as the stability of the case BB mass transfer episode.
+Interestingly, we also think that LISA may be able to detect double neutron stars with significantly eccentric orbits (e ~ 0.1). Generally, double compact objects that are formed through isolated evolution tend to be almost completely circular when they coalesce in the 10 - 1000 Hz frequency window of ground-based gravitational wave detectors like LIGO and Virgo (I explain this in a set of notes [here](https://themikelau.github.io/notes/LIGOeccentricity.pdf)). We also demonstrated that the eccentricity distribution of double neutron stars may inform us about the formation channel of double neutron stars, such as the stability of the so-called case BB mass transfer episode.
 
 <figure>
   <img src="/images/LISAanimation.gif" alt="Frequency-eccentricity evolution" style="width:70%" class="center">
