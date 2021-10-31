@@ -17,3 +17,7 @@ These videos are associated with the publication *Common envelopes in massive st
       <figcaption>Gas + radiation equation of state with 3 solar mass companion (meridional plane).</figcaption>
  </figure>
  <br>
+  <figure>
+      <video class="center" src="/publication_videos/2M_3M_mesa_xy.mp4" width="480" controls playsinline muted >Sorry, your browser doesn't support embedded videos</video>
+      <figcaption>Full equation of state with 3 solar mass companion (equatorial plane).</figcaption>
+ </figure>
