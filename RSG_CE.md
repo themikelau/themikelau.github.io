@@ -1,6 +1,6 @@
 ### Common-envelope simulations of a 12 solar mass red supergiant donor
 
-| Equation of state | |
+| Equation&nbsp;of&nbsp;state | |
 | ----------- | ----------- |
 | Gas + radiation | <a href="#2M_3M_gasrad_xy">Equatorial</a> &nbsp; <a href="#2M_3M_gasrad_xz">Meridional</a> &nbsp; <a href="#2M_3M_gasrad_xz_corotate">Meridional, corotating</a> &nbsp; <a href="#500k_3M_gasrad_surf">Surface rendering (medium resolution)</a>|
 | Ideal gas | <a href="#2M_3M_ideal_xy">Equatorial</a> &nbsp; <a href="#2M_3M_ideal_xz">Meridional</a> &nbsp; <a href="#2M_3M_ideal_xz_corotate">Meridional, corotating</a>|
