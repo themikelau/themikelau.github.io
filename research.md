@@ -1,5 +1,5 @@
 ## Research
-I study binary star evolution using rapid population synthesis, 1D stellar modelling, and detailed 3D hydrodynamics.
+I study binary star evolution using rapid population synthesis, 1D stellar modelling, and 3D hydrodynamics.
 
 ### COMPAS
 I am part of the core development team for [COMPAS](https://ui.adsabs.harvard.edu/abs/2021arXiv210910352T/abstract), which is a publicly-available ([link to github repository](https://github.com/TeamCOMPAS/COMPAS)) rapid stellar and binary population synthesis code. With COMPAS, one can generate a large population of binary (or single) stars rapidly, taking only a tenth of a second to evolve one binary system from birth to death on a consumer laptop. This allows multiple populations to be simulated with different assumptions on binary evolution physics. I work with the COMPAS team to constrain binary evolution physics by comparing simulated populations with observations, such as gravitational waves produced by compact binaries.
@@ -15,14 +15,15 @@ I am a developer of the smoothed particle hydrodynamics and magnetohydrodynamics
 <br>
 <br>
 ### Common-envelope evolution in massive stars
-I led an effort to simulate a common-envelope event involving a red supergiant donor star with 3D hydrodynamics. The common-envelope phase was originally proposed to explain the existence of tight, evolved binary stars whose current separation is many times smaller than the large sizes they must previously have had on the giant branch. Common-envelope evolution solves this so-called *separation problem* by allowing close compact binaries to form from initially wide stars, and is now considered a standard scenario for forming the progenitors of X-ray binaries, double neutron stars, type Ia supernovae, and compact binary coalescences.
+I led an effort to simulate a common-envelope event involving a red supergiant donor star with 3D hydrodynamics. The common-envelope phase was originally proposed to explain the existence of tight, evolved binary stars whose current separation is many times smaller than the large sizes they must have previously had on the giant branch. Common-envelope evolution solves this so-called *separation problem* by allowing close compact binaries to form from initially wide stars, and is now considered a standard scenario for forming the progenitors of X-ray binaries, double neutron stars, type Ia supernovae, and compact binary coalescences.
 
 <figure>
-    <video class="center" src="/publication_videos/500k_3M_gasrad_surf_short.mp4" width="480" controls autoplay playsinline muted >Sorry, your browser doesn't support embedded videos</video>
-    <figcaption>Simulation of common-envelope phase with a 12 solar mass red supergiant donor with a 3 solar mass companion (Lau et al., 2021). See more simulation videos [here](https://themikelau.github.io/RSG_CE).</figcaption>
+    <video class="center" src="/publication_videos/500k_3M_gasrad_surf_short.mp4" width="480" controls autoplay loop playsinline muted >Sorry, your browser doesn't support embedded videos</video>
+    <figcaption>Simulation of common-envelope phase with a 12 solar mass red supergiant donor with a 3 solar mass companion (Lau et al., 2021). See more simulation videos <a href="https://themikelau.github.io/RSG_CE">here</a>.
+    </figcaption>
 </figure>
 
-Previous simulations on the common-envelope phase have almost entirely focused on low mass donors (1-2 solar masses). In this study, we instead simulated a massive star common-envelope, using the code Phantom (see [videos](https://themikelau.github.io/RSG_CE) of our simulations). We found that the internal energy of the star may help eject the common envelope. Particularly, including radiation thermal energy, which is only significant in massive stars, ejects 60% more mass and may increase the final separation by around 10%. When hydrogen and helium recombination are also modelled, we find that at least three quarters, and possibly the entire envelope, may be unbound. The final separation further increases by almost 20%.
+Previous simulations of the common-envelope phase have almost entirely focused on low mass donors (1-2 solar masses). In this study, we instead simulated a massive star common-envelope, using the code Phantom (see [videos](https://themikelau.github.io/RSG_CE) of our simulations). We found that the internal energy of the star may help eject the common envelope. Particularly, including radiation thermal energy, which is only significant in massive stars, ejects 60% more mass and may increase the final separation by around 10%. When hydrogen and helium recombination are also modelled, we find that at least three quarters, and possibly the entire envelope, may be unbound. The final separation further increases by almost 20%.
 <br>
 <br>
 ### [Detecting Double Neutron Stars with *LISA*](https://ui.adsabs.harvard.edu/abs/2020MNRAS.492.3061L/abstract)

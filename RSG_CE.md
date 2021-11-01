@@ -1,11 +1,4 @@
 ### Common-envelope simulations of a 12 solar mass red supergiant donor
-
-| Equation&nbsp;of&nbsp;state | |
-| ----------- | ----------- |
-| Gas + radiation | <a href="#2M_3M_gasrad_xy">Equatorial</a> &nbsp; <a href="#2M_3M_gasrad_xz">Meridional</a> &nbsp; <a href="#2M_3M_gasrad_xz_corotate">Meridional, corotating</a> &nbsp; <a href="#500k_3M_gasrad_surf">Surface rendering (medium resolution)</a>|
-| Ideal gas | <a href="#2M_3M_ideal_xy">Equatorial</a> &nbsp; <a href="#2M_3M_ideal_xz">Meridional</a> &nbsp; <a href="#2M_3M_ideal_xz_corotate">Meridional, corotating</a>|
-| Full | <a href="#2M_3M_mesa_xy">Equatorial</a> &nbsp; <a href="#2M_3M_mesa_xz">Meridional</a> &nbsp; <a href="#2M_3M_mesa_xz_corotate">Meridional, corotating</a>|
-
 These videos are associated with the publication *Common envelopes in massive stars: The role of radiation pressure and recombination energy in ejecting red supergiant envelopes* (Lau et al., 2021).
 
 For each simulation, we show the density cross-section in the equatorial/orbital plane, in the meridional plane, and in a meridional plane instantaneously co-rotating with the stellar cores.
