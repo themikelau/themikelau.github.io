@@ -18,7 +18,7 @@ I am a developer of the smoothed particle hydrodynamics and magnetohydrodynamics
 I led an effort to simulate a common-envelope event involving a red supergiant donor star with 3D hydrodynamics. The common-envelope phase was originally proposed to explain the existence of tight, evolved binary stars whose current separation is many times smaller than the large sizes they must previously have had on the giant branch. Common-envelope evolution solves this so-called *separation problem* by allowing close compact binaries to form from initially wide stars, and is now considered a standard scenario for forming the progenitors of X-ray binaries, double neutron stars, type Ia supernovae, and compact binary coalescences.
 
 <figure>
-    <video class="center" src="/publication_videos/500k_3M_gasrad_surface_render.mp4" width="480" controls autoplay playsinline muted >Sorry, your browser doesn't support embedded videos</video>
+    <video class="center" src="/publication_videos/500k_3M_gasrad_surf_short.mp4" width="480" controls autoplay playsinline muted >Sorry, your browser doesn't support embedded videos</video>
     <figcaption>Simulation of common-envelope phase with a 12 solar mass red supergiant donor with a 3 solar mass companion (Lau et al., 2021). See more simulation videos [here](https://themikelau.github.io/RSG_CE).</figcaption>
 </figure>
 
