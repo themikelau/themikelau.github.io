@@ -14,7 +14,7 @@ I am part of the core development team for [COMPAS](https://ui.adsabs.harvard.ed
 I am a developer of the smoothed particle hydrodynamics and magnetohydrodynamics code [Phantom](https://ui.adsabs.harvard.edu/abs/2018PASA...35...31P/abstract) (publicly available via its [repository](https://github.com/danieljprice/phantom)). Phantom has been used for simulations of star-formation, protoplanetary disks, accretion disks, tidal disruption, and more. I focus on using Phantom to produce 3D simulations of the common-envelope phase in binary evolution.
 <br>
 <br>
-### Common-envelope evolution in massive stars
+### [Common-envelope evolution in massive stars](https://arxiv.org/abs/2111.00923)
 I led an effort to simulate a common-envelope event involving a red supergiant donor star with 3D hydrodynamics. The common-envelope phase was originally proposed to explain the existence of tight, evolved binary stars whose current separation is many times smaller than the large sizes they must have previously had on the giant branch. Common-envelope evolution solves this so-called *separation problem* by allowing close compact binaries to form from initially wide stars, and is now considered a standard scenario for forming the progenitors of X-ray binaries, double neutron stars, type Ia supernovae, and compact binary coalescences.
 
 <figure>

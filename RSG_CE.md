@@ -1,5 +1,5 @@
 ### Common-envelope simulations of a 12 solar mass red supergiant donor
-These videos are associated with the publication *Common envelopes in massive stars: The role of radiation pressure and recombination energy in ejecting red supergiant envelopes* (Lau et al., 2021).
+These videos are associated with the publication *Common envelopes in massive stars: The role of radiation pressure and recombination energy in ejecting red supergiant envelopes* [(Lau et al., 2021)](https://arxiv.org/abs/2111.00923).
 
 For each simulation, we show the density cross-section in the equatorial/orbital plane, in the meridional plane, and in a meridional plane instantaneously co-rotating with the stellar cores.
 
