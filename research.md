@@ -2,7 +2,7 @@
 I study binary star evolution using rapid population synthesis, 1D stellar modelling, and 3D hydrodynamics.
 
 ### COMPAS
-I am part of the core development team for [COMPAS](https://ui.adsabs.harvard.edu/abs/2021arXiv210910352T/abstract), which is a publicly-available ([link to github repository](https://github.com/TeamCOMPAS/COMPAS)) rapid stellar and binary population synthesis code. With COMPAS, one can generate a large population of binary (or single) stars rapidly, taking only a tenth of a second to evolve one binary system from birth to death on a consumer laptop. This allows multiple populations to be simulated with different assumptions on binary evolution physics. I work with the COMPAS team to constrain binary evolution physics by comparing simulated populations with observations, such as gravitational waves produced by compact binaries.
+I am part of the core development team for [COMPAS](https://ui.adsabs.harvard.edu/abs/2021arXiv210910352T/abstract), which is a publicly-available rapid stellar and binary population synthesis code ([link to github repository](https://github.com/TeamCOMPAS/COMPAS)). With COMPAS, one can generate a large population of binary (or single) stars rapidly, taking only a tenth of a second to evolve one binary system from birth to death on a consumer laptop. This allows multiple populations to be simulated with different assumptions on binary evolution physics. I work with the COMPAS team to constrain binary evolution physics by comparing simulated populations with observations, such as gravitational waves produced by compact binaries.
 
 <figure>
   <img src="/images/common-envelope-evolution.png" alt="Common envelope evolution" style="width:100%" class="center">
@@ -11,31 +11,42 @@ I am part of the core development team for [COMPAS](https://ui.adsabs.harvard.ed
 </figure> 
 
 ### Phantom
-I am a developer of the smoothed particle hydrodynamics and magnetohydrodynamics code [Phantom](https://ui.adsabs.harvard.edu/abs/2018PASA...35...31P/abstract) (publicly available via its [repository](https://github.com/danieljprice/phantom)). Phantom has been used for simulations of star-formation, protoplanetary disks, accretion disks, tidal disruption, and more. I focus on using Phantom to produce 3D simulations of the common-envelope phase in binary evolution.
+I am a developer of the smoothed particle hydrodynamics and magnetohydrodynamics code [Phantom](https://ui.adsabs.harvard.edu/abs/2018PASA...35...31P/abstract) (publicly available via its [repository](https://github.com/danieljprice/phantom)). Phantom has been used for simulations of star formation, protoplanetary disks, accretion disks, tidal disruption, and more. I focus on using Phantom to produce 3D simulations of the common-envelope evolution.
 <br>
 <br>
+___
 ### [Common-envelope evolution in massive stars](https://ui.adsabs.harvard.edu/abs/2021arXiv211100923L/abstract)
 I led an effort to simulate a common-envelope event involving a red supergiant donor star with 3D hydrodynamics. The common-envelope phase was originally proposed to explain the existence of tight, evolved binary stars whose current separation is many times smaller than the large sizes they must have previously had on the giant branch. Common-envelope evolution solves this so-called *separation problem* by allowing close compact binaries to form from initially wide stars, and is now considered a standard scenario for forming the progenitors of X-ray binaries, double neutron stars, type Ia supernovae, and compact binary coalescences.
 
 <figure>
     <video class="center" src="/publication_videos/500k_3M_gasrad_surf_short.mp4" width="480" controls autoplay loop playsinline muted >Sorry, your browser doesn't support embedded videos</video>
-    <figcaption>Simulation of common-envelope phase with a 12 solar mass red supergiant donor with a 3 solar mass companion (Lau et al., 2021). See more simulation videos <a href="https://themikelau.github.io/RSG_CE">here</a>.
+    <figcaption>Simulation of common-envelope phase involving a 12 solar mass red supergiant donor with a 3 solar mass companion (Lau et al., 2021). See more simulation videos <a href="https://themikelau.github.io/RSG_CE">here</a>.
     </figcaption>
 </figure>
 
-Previous simulations of the common-envelope phase have almost entirely focused on low mass donors (1-2 solar masses). In this study, we instead simulated a massive star common-envelope, using the code Phantom (see [videos](https://themikelau.github.io/RSG_CE) of our simulations). We found that the internal energy of the star may help eject the common envelope. Particularly, including radiation thermal energy, which is only significant in massive stars, ejects 60% more mass and may increase the final separation by around 10%. When hydrogen and helium recombination are also modelled, we find that at least three quarters, and possibly the entire envelope, may be unbound. The final separation further increases by almost 20%.
+Previous simulations of the common-envelope phase have almost entirely focused on low mass donors (1-2 solar masses). In this study, we instead simulated a massive star common-envelope, using the code Phantom (see [videos](https://themikelau.github.io/RSG_CE) of our simulations). We found that the internal energy of the star may help eject the common envelope. Particularly, including radiation thermal energy, which is only significant in massive stars, ejects 60% more mass and may increase the final separation by around 10%. When hydrogen and helium recombination energy are also included, we find that at least three quarters, and possibly the entire envelope, may be unbound. The final separation further increases by almost 20%.
 <br>
 <br>
+___
+### [The distinct roles of hydrogen and helium recombination energy in common envelopes](https://ui.adsabs.harvard.edu/abs/2021arXiv211100923L/abstract)
+More recently, we dug deeper to understand the role of recombination energy in common-envelope evolution. Hydrogen and helium recombination are of particular interest, as they dominate the recombination energy budget of stellar envelopes. We performed and compared a simulation that includes only helium recombination energy with one that includes both hydrogen and helium recombination energy. This allowed us to separate out the distinct effects of the two types of recombination.
+
+Past studies have found that including recombination energy could result in ejecting a large fraction, if not the entire, envelope. But our framework allows us to study the role of helium recombination energy by itself. We find that helium recombination energy alone increases the amount of unbound envelope mass by 30%, and increases the post-common-envelope separation by 16%. This is important because helium recombination is commonly considered to be a more "robust" energy source compared to hydrogen recombination, which may be radiated away in optically-thin parts of the envelope. Adding hydrogen recombination energy further increases the amount of unbound envelope mass by 40%, possibly unbinding the entire envelope. Interestingly, adding hydrogen recombination energy does not seem to significantly alter the final orbital separation, which seems to be mainly influenced by energy deposited in deeper parts of the envelope.
+
+Another key result is that only a very small fraction (< 30%) of the hydrogen recombination energy is actually responsible for the additional 40% of ejected envelope mass. This energy is deposited in layers with relatively high degrees of hydrogen ionisation and so are optically-thick. This means the "useful" hydrogen recombination energy may help expand the envelope before it is transported away by radiative diffusion. The remaining recombination energy, injected in cooler layers that are already unbound, would be radiated away and are expected to contribute to the H-alpha emission of luminous red novae.
+<br>
+<br>
+___
 ### [Detecting Double Neutron Stars with *LISA*](https://ui.adsabs.harvard.edu/abs/2020MNRAS.492.3061L/abstract)
 I have led a project to understand the population of double neutron stars expected to be seen by *LISA*. The [Laser Interferometer Space Antenna (LISA)](https://lisa.nasa.gov/) is a space-based gravitational wave interferometer with planned launch in the 2030s. It consists of three satellites in heliocentric orbit, arranged in an equilateral triangle constellation. Laser beams connect these satellites, forming 2.5 million kilometre arms that measure distortions in spacetime caused by passing gravitational waves.
 
-My collaborators and I used COMPAS to produce a synthetic population of double neutron stars, and tracked their evolution through the LISA frequency window driven by gravitational radiation. For our assumed model of binary evolution physics and the Galactic double neutron star merger rate, we estimate that LISA may be able to detect ~ 35 double neutron stars over a four-year mission, with signal-to-noise ratios above 8 and characteristic orbital frequencies of 1 mHz. Most of these double neutron stars will be Galactic, but ~ 1 system may also be detected in the Large and Small Magellanic Cloud. 
+My collaborators and I used COMPAS to produce a synthetic population of double neutron stars, and tracked their evolution through the LISA frequency window driven by gravitational radiation. We estimate that LISA may be able to detect ~ 35 double neutron stars over a four-year mission, with characteristic orbital frequencies of 1 mHz. Almost all of these double neutron stars are expected to be Galactic, but ~ 1 system may also be detected in the Large and Small Magellanic Cloud. 
 
 Interestingly, we also think that LISA may be able to detect double neutron stars with significantly eccentric orbits (e ~ 0.1). Generally, double compact objects that are formed through isolated evolution tend to be almost completely circular when they coalesce in the 10 - 1000 Hz frequency window of ground-based gravitational wave detectors like LIGO and Virgo (I explain this in a set of notes [here](https://themikelau.github.io/notes/LIGOeccentricity.pdf)). We also demonstrated that the eccentricity distribution of double neutron stars may inform us about the formation channel of double neutron stars, such as the stability of the so-called case BB mass transfer episode.
 
 <figure>
   <img src="/images/LISAanimation.gif" alt="Frequency-eccentricity evolution" style="width:70%" class="center">
-  <figcaption>This is an animation I have made that shows the evolution due to gravitational radiation reaction of double neutron stars in frequency-eccentricity space over 10 Gyr. Each point represents a double neutron star simulated with COMPAS (Vigna-Gomez et al., 2018). A shear flow is observed that reflects faster evolution for high eccentricity (and high frequency) orbits.</figcaption>
+  <figcaption>This is an animation I have made that shows the gravitational-wave-driven evolution of double neutron stars in frequency-eccentricity space over 10 Gyr. Each point represents a double neutron star simulated with COMPAS (Vigna-Gomez et al., 2018). A shear flow is observed that reflects faster evolution for higher eccentricity (and higher frequency) orbits.</figcaption>
 </figure> 
 
  <figure>
