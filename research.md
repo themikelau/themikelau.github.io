@@ -14,7 +14,8 @@ I am part of the core development team for [COMPAS](https://ui.adsabs.harvard.ed
 I am a developer of the smoothed particle hydrodynamics and magnetohydrodynamics code [Phantom](https://ui.adsabs.harvard.edu/abs/2018PASA...35...31P/abstract) (publicly available via its [repository](https://github.com/danieljprice/phantom)). Phantom has been used for simulations of star formation, protoplanetary disks, accretion disks, tidal disruption, and more. I focus on using Phantom to produce 3D simulations of the common-envelope evolution.
 <br>
 <br>
-___
+<hr>
+
 ### [Common-envelope evolution in massive stars](https://ui.adsabs.harvard.edu/abs/2021arXiv211100923L/abstract)
 I led an effort to simulate a common-envelope event involving a red supergiant donor star with 3D hydrodynamics. The common-envelope phase was originally proposed to explain the existence of tight, evolved binary stars whose current separation is many times smaller than the large sizes they must have previously had on the giant branch. Common-envelope evolution solves this so-called *separation problem* by allowing close compact binaries to form from initially wide stars, and is now considered a standard scenario for forming the progenitors of X-ray binaries, double neutron stars, type Ia supernovae, and compact binary coalescences.
 
@@ -27,7 +28,8 @@ I led an effort to simulate a common-envelope event involving a red supergiant d
 Previous simulations of the common-envelope phase have almost entirely focused on low mass donors (1-2 solar masses). In this study, we instead simulated a massive star common-envelope, using the code Phantom (see [videos](https://themikelau.github.io/RSG_CE) of our simulations). We found that the internal energy of the star may help eject the common envelope. Particularly, including radiation thermal energy, which is only significant in massive stars, ejects 60% more mass and may increase the final separation by around 10%. When hydrogen and helium recombination energy are also included, we find that at least three quarters, and possibly the entire envelope, may be unbound. The final separation further increases by almost 20%.
 <br>
 <br>
-___
+<hr>
+
 ### [The distinct roles of hydrogen and helium recombination energy in common envelopes](https://ui.adsabs.harvard.edu/abs/2021arXiv211100923L/abstract)
 More recently, we dug deeper to understand the role of recombination energy in common-envelope evolution. Hydrogen and helium recombination are of particular interest, as they dominate the recombination energy budget of stellar envelopes. We performed and compared a simulation that includes only helium recombination energy with one that includes both hydrogen and helium recombination energy. This allowed us to separate out the distinct effects of the two types of recombination.
 
@@ -36,7 +38,8 @@ Past studies have found that including recombination energy could result in ejec
 Another key result is that only a very small fraction (< 30%) of the hydrogen recombination energy is actually responsible for the additional 40% of ejected envelope mass. This energy is deposited in layers with relatively high degrees of hydrogen ionisation and so are optically-thick. This means the "useful" hydrogen recombination energy may help expand the envelope before it is transported away by radiative diffusion. The remaining recombination energy, injected in cooler layers that are already unbound, would be radiated away and are expected to contribute to the H-alpha emission of luminous red novae.
 <br>
 <br>
-___
+<hr>
+
 ### [Detecting Double Neutron Stars with *LISA*](https://ui.adsabs.harvard.edu/abs/2020MNRAS.492.3061L/abstract)
 I have led a project to understand the population of double neutron stars expected to be seen by *LISA*. The [Laser Interferometer Space Antenna (LISA)](https://lisa.nasa.gov/) is a space-based gravitational wave interferometer with planned launch in the 2030s. It consists of three satellites in heliocentric orbit, arranged in an equilateral triangle constellation. Laser beams connect these satellites, forming 2.5 million kilometre arms that measure distortions in spacetime caused by passing gravitational waves.
 
