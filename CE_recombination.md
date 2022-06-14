@@ -10,7 +10,9 @@ For each simulation, we show the density cross-section in the equatorial/orbital
 | He | <a href="#irec2_xy">Equatorial</a> &nbsp; <a href="#irec2_xz">Meridional</a>
 | None | <a href="#irec3_xy">Equatorial</a> &nbsp; <a href="#irec3_xz">Meridional</a>
 | None, fixed &mu; | See the <a href="/RSG_CE#500k_3M_gasrad_surf">gas + radiation equation of state simulation</a> in Paper I
-___
+
+<hr>
+
 #### H + He + H<sub>2</sub> recombination energy
 These simulations include energy from recombination into H, He and H<sub>2></sub>. This is similar to past 3D hydrodynamical simulations that have included recombination energy through using the MESA or OPAL equation of state tables. 
  <figure>
@@ -28,7 +30,8 @@ These simulations include energy from recombination into H, He and H<sub>2></sub
  </figure>
  <br>
 
-___
+<hr> 
+
 #### H + He recombination energy
 These simulations include energy released during H and He atomic recombination.
  <figure>
@@ -46,7 +49,8 @@ These simulations include energy released during H and He atomic recombination.
  </figure>
  <br>
 
-___
+<hr>
+
 #### He recombination energy
 These simulations include only He recombination energy.
  <figure>
@@ -64,7 +68,8 @@ These simulations include only He recombination energy.
  </figure>
  <br>
 
-___
+<hr>
+
 #### No recombination energy
 These simulations do not include any recombination energy, but model the effect of increased mean molecular weight, &mu;, associated with recombination.
  <figure>
@@ -82,6 +87,7 @@ These simulations do not include any recombination energy, but model the effect 
  </figure>
  <br>
 
-___
+<hr>
+
 #### No recombination energy, fixed &mu;
 This is the case where no recombination energy is included, and the mean molecular weight is held fixed at &mu; = 0.62, corresponding to a fully ionised convective envelope. This case is identical to the gas + radiation equation of state simulation in Paper I [(Lau et al., 2022)](https://ui.adsabs.harvard.edu/abs/2021arXiv211100923L/abstract)---its movies are shown on [here](https://themikelau.github.io/RSG_CE#500k_3M_gasrad_surf).
