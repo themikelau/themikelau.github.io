@@ -8,7 +8,9 @@ For each simulation, we show the density cross-section in the equatorial/orbital
 | Gas + radiation | <a href="#2M_3M_gasrad_xy">Equatorial</a> &nbsp; <a href="#2M_3M_gasrad_xz">Meridional</a> &nbsp; <a href="#2M_3M_gasrad_xz_corotate">Meridional (corotating)</a> &nbsp; <a href="#500k_3M_gasrad_surf">Surface rendering (medium resolution)</a>|
 | Ideal gas | <a href="#2M_3M_ideal_xy">Equatorial</a> &nbsp; <a href="#2M_3M_ideal_xz">Meridional</a> &nbsp; <a href="#2M_3M_ideal_xz_corotate">Meridional (corotating)</a>|
 | Full | <a href="#2M_3M_mesa_xy">Equatorial</a> &nbsp; <a href="#2M_3M_mesa_xz">Meridional</a> &nbsp; <a href="#2M_3M_mesa_xz_corotate">Meridional (corotating)</a>|
- ___
+ 
+<hr>
+
 #### Gas + radiation equation of state
  <figure>
       <a id="500k_3M_gasrad_surf">
@@ -39,7 +41,8 @@ For each simulation, we show the density cross-section in the equatorial/orbital
  </figure>
  <br>
 
- ___
+ <hr>
+
 #### Ideal gas equation of state
  <figure>
       <a id="2M_3M_ideal_xy">
@@ -63,7 +66,8 @@ For each simulation, we show the density cross-section in the equatorial/orbital
  </figure>
  <br>
 
- ___
+ <hr>
+
 #### "Full" equation of state
  <figure>
       <a id="2M_3M_mesa_xy">
