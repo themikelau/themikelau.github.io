@@ -14,7 +14,7 @@ For each simulation, we show the density cross-section in the equatorial/orbital
 <hr>
 
 #### H + He + H<sub>2</sub> recombination energy
-These simulations include energy from recombination into H, He and H<sub>2></sub>. This is similar to past 3D hydrodynamical simulations that have included recombination energy through using the MESA or OPAL equation of state tables. 
+These simulations include energy from recombination into H, He and H<sub>2</sub>. This is similar to past 3D hydrodynamical simulations that have included recombination energy through using the MESA or OPAL equation of state tables. 
  <figure>
       <a id="irec0_xy">
       <video class="center" src="/publication_videos/CE_recombination/irec0_xy.mp4" width="480" controls playsinline muted >Sorry, your browser doesn't support embedded videos</video>
