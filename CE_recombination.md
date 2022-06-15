@@ -1,5 +1,5 @@
 ### Common-envelope simulations including different sources of recombination energy
-These videos are associated with the publication *Common envelopes in massive stars II: The distinct roles of hydrogen and helium recombination* [(Lau et al., 2022)](https://ui.adsabs.harvard.edu/abs/2022MNRAS.512.5462L/abstract).
+These videos are associated with the publication *Common envelopes in massive stars II: The distinct roles of hydrogen and helium recombination* [(Lau et al., 2022)](https://ui.adsabs.harvard.edu/abs/2022arXiv220606411L/abstract).
 
 For each simulation, we show the density cross-section in the equatorial/orbital plane, in the meridional plane, and in a meridional plane instantaneously co-rotating with the stellar cores.
 
