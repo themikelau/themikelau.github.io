@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon_mike_lau.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet"> 
+</head>
+
+<div class="grey-block">
+    <nav>
+        <a href="index.html">
+            <img src="images/mike_lau.png" class="logo">
+        </a>
+        <!-- <ul> -->
+            <li><a href="index.html">HOME</a></li>
+            <li>
+                <div class="dropdown">
+                    <a href="research.html">RESEARCH</a>
+                    <div class="dropdown-content">
+                        <a href="research.html#RSG">RSG common envelopes</a>
+                        <a href="research.html#recombination">Recombination in common envelopes</a>
+                        <a href="research.html#LISA">LISA double neutron stars</a>
+                    </div>
+                </div> 
+            </li>
+            <li>
+                <div class="dropdown">
+                    <a href="videos.html">VIDEOS</a>
+                    <div class="dropdown-content">
+                        <a href="RSG_CE.html">RSG common envelopes</a>
+                        <a href="CE_recombination.html">Recombination in common envelopes</a>
+                    </div>
+                </div> 
+            </li>
+            <li>
+                <div class="dropdown">
+                    <a href="notes.html">NOTES</a>
+                    <div class="dropdown-content">
+                        <a href="notes/darwin.pdf">Darwin instability</a>
+                        <a href="notes/LIGOeccentricity.pdf">Eccentricity of gravitational wave sources</a>
+                        <a href="notes/mri.pdf">Magnetorotational instability</a>
+                    </div>
+                </div> 
+            </li>
+        </ul>
+    </nav>
+</div>
+
+<div class="research">
+    <div class="research-page">
+        <h1>Research</h1>
+        <p>I study interactions in stellar binaries using rapid population synthesis, 1D stellar modelling, and 3D hydrodynamics.</p>
+
+        <h2>COMPAS</h2>
+        <p>I am part of the core development team for <a href="https://ui.adsabs.harvard.edu/abs/2021arXiv210910352T/abstract">COMPAS</a>, which is a publicly-available rapid stellar and binary population synthesis code (<a href="https://github.com/TeamCOMPAS/COMPAS">link to github repository</a>). With COMPAS, one can generate a large population of binary (or single) stars rapidly, taking only a tenth of a second to evolve one binary system from birth to death on a consumer laptop. This allows multiple populations to be simulated with different assumptions on binary evolution physics. I work with the COMPAS team to constrain binary evolution physics by comparing simulated populations with observations, such as gravitational waves produced by compact binaries.</p>
+
+        <figure>
+            <img src="images/common-envelope-evolution.png" alt="Common envelope evolution" style="width:100%">
+            <figcaption>Illustration of the different phases of double neutron star formation via the common-envelope channel.</figcaption>
+        </figure> 
+
+        <h2>Phantom</h2>
+        <p>I am a developer of the smoothed particle hydrodynamics and magnetohydrodynamics code <a href="https://ui.adsabs.harvard.edu/abs/2018PASA...35...31P/abstract">Phantom</a> (publicly available via its <a href="https://github.com/danieljprice/phantom">repository</a>). Phantom has been used for simulations of star formation, protoplanetary disks, accretion disks, tidal disruption, and more. I focus on using Phantom to produce 3D simulations of the common-envelope evolution.</p>
+        <br>
+        <br>
+        <hr>
+
+        <div class="research-title">
+            <h2 id="RSG">Common-envelope evolution in massive stars</h2>
+            <div class="ads">
+                <a href="https://ui.adsabs.harvard.edu/abs/2021arXiv211100923L/abstract">ADS</a>
+            </div>
+        </div>
+        <p>I led an effort to simulate a common-envelope event involving a red supergiant donor star with 3D hydrodynamics. The common-envelope phase was originally proposed to explain the existence of tight, evolved binary stars whose current separation is many times smaller than the large sizes they must have previously had on the giant branch. Common-envelope evolution solves this so-called <i>separation problem</i> by allowing close compact binaries to form from initially wide stars, and is now considered a standard scenario for forming the progenitors of X-ray binaries, double neutron stars, type Ia supernovae, and compact binary coalescences. </p>
+
+        <figure>
+            <video class="center" src="publication_videos/RSG_CE/500k_3M_gasrad_surf_short.mp4" width="560" controls autoplay loop playsinline muted >Sorry, your browser doesn't support embedded videos</video>
+            <figcaption>Simulation of common-envelope phase involving a 12 solar mass red supergiant donor with a 3 solar mass companion (Lau et al., 2021). See more simulation videos <a href="https://themikelau.github.io/RSG_CE">here</a>.</figcaption>
+        </figure>
+
+        <p>Previous simulations of the common-envelope phase have almost entirely focused on low mass donors (1-2 solar masses). In this study, we instead simulated a massive star common-envelope, using the code Phantom (see <a href="https://themikelau.github.io/RSG_CE">videos</a> of our simulations). We found that the internal energy of the star may help eject the common envelope. Particularly, including radiation thermal energy, which is only significant in massive stars, ejects 60% more mass and may increase the final separation by around 10%. When hydrogen and helium recombination energy are also included, we find that at least three quarters, and possibly the entire envelope, may be unbound. The final separation further increases by almost 20%. </p>
+        <br>
+        <br>
+        <hr>
+
+        <div class="research-title">
+            <h2 id="recombination">The distinct roles of hydrogen and helium recombination energy in common envelopes</h2>
+            <div class="ads">
+                <a href="https://ui.adsabs.harvard.edu/abs/2022arXiv220606411L/abstract">ADS</a>
+            </div>
+        </div>
+        <p>
+        More recently, we dug deeper to understand the role of recombination energy in common-envelope evolution. Hydrogen and helium recombination are of particular interest, as they dominate the recombination energy budget of stellar envelopes. We performed and compared a simulation that includes only helium recombination energy with one that includes both hydrogen and helium recombination energy. This allowed us to separate out the distinct effects of the two types of recombination.
+        </p>
+        <br>
+        <p>
+        Past studies have found that including recombination energy could result in ejecting a large fraction, if not the entire, envelope. But our framework allows us to study the role of helium recombination energy by itself. We find that helium recombination energy alone increases the amount of unbound envelope mass by 30%, and increases the post-common-envelope separation by 16%. This is important because helium recombination is commonly considered to be a more "robust" energy source compared to hydrogen recombination, which may be radiated away in optically-thin parts of the envelope. Adding hydrogen recombination energy further increases the amount of unbound envelope mass by 40%, possibly unbinding the entire envelope. Interestingly, adding hydrogen recombination energy does not seem to significantly alter the final orbital separation, which seems to be mainly influenced by energy deposited in deeper parts of the envelope.
+        </p>
+        <p>
+        <br>
+        Another key result is that only a very small fraction (< 30%) of the hydrogen recombination energy is actually responsible for the additional 40% of ejected envelope mass. This energy is deposited in layers with relatively high degrees of hydrogen ionisation and so are optically-thick. This means the "useful" hydrogen recombination energy may help expand the envelope before it is transported away by radiative diffusion. The remaining recombination energy, injected in cooler layers that are already unbound, would be radiated away and are expected to contribute to the H-alpha emission of luminous red novae.
+        </p>
+        <br>
+        <br>
+        <hr>
+
+        <h2 id="LISA">Detecting Double Neutron Stars with <i>LISA</i></h2>
+        <div class="ads">
+            <a href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.492.3061L/abstract">ADS</a>
+        </div>
+        <p>I have led a project to understand the population of double neutron stars expected to be seen by <a href="https://lisa.nasa.gov/">Laser Interferometer Space Antenna (<i>LISA</i>)</a>. <i>LISA</i> is a space-based gravitational wave interferometer with planned launch in the 2030s. It consists of three satellites in heliocentric orbit, arranged in an equilateral triangle constellation. Laser beams connect these satellites, forming 2.5 million kilometre arms that measure distortions in spacetime caused by passing gravitational waves.</p>
+        <br>
+        <p>My collaborators and I used COMPAS to produce a synthetic population of double neutron stars, and tracked their evolution through the LISA frequency window driven by gravitational radiation. We estimate that LISA may be able to detect ~ 35 double neutron stars over a four-year mission, with characteristic orbital frequencies of 1 mHz. Almost all of these double neutron stars are expected to be Galactic, but ~ 1 system may also be detected in the Large and Small Magellanic Cloud. </p>
+        <br>
+        <p>Interestingly, we also think that LISA may be able to detect double neutron stars with significantly eccentric orbits (e ~ 0.1). Generally, double compact objects that are formed through isolated evolution tend to be almost completely circular when they coalesce in the 10 - 1000 Hz frequency window of ground-based gravitational wave detectors like LIGO and Virgo (I explain this in a set of notes [here](https://themikelau.github.io/notes/LIGOeccentricity.pdf)). We also demonstrated that the eccentricity distribution of double neutron stars may inform us about the formation channel of double neutron stars, such as the stability of the so-called case BB mass transfer episode.</p>
+
+        <figure>
+            <img src="images/LISAanimation.gif" alt="Frequency-eccentricity evolution" style="width:70%" class="center">
+            <figcaption>This is an animation I have made that shows the gravitational-wave-driven evolution of double neutron stars in frequency-eccentricity space over 10 Gyr. Each point represents a double neutron star simulated with COMPAS (Vigna-Gomez et al., 2018). A shear flow is observed that reflects faster evolution for higher eccentricity (and higher frequency) orbits.</figcaption>
+        </figure> 
+        <br>
+        <figure>
+            <img src="images/LISAnoiseCurve.png" alt="LISA noise curve" style="width:70%" class="center">
+            <figcaption>Plot of the LISA noise curve with 35 Monte Carlo realisations of LISA double neutron star sources (filled circles). The green circles correspond to sources in the Large Magellanic Cloud. The height of a dot above the solid curve gives the source signal-to-noise ratio.</figcaption>
+        </figure> 
+
+
+        <h3>Links to media articles</h3>
+        <a href="https://spaceaustralia.com/feature/gravitational-waves-space-reveal-secret-lives-dead-stars">https://spaceaustralia.com/feature/gravitational-waves-space-reveal-secret-lives-dead-stars</a> <br>
+        <a href="https://interestingengineering.com/lisa-may-reveal-the-secret-lives-and-deaths-of-stars-with-gravitational-waves">https://interestingengineering.com/lisa-may-reveal-the-secret-lives-and-deaths-of-stars-with-gravitational-waves</a> <br>
+        <a href="https://www.ozgrav.org/news/future-space-detector-lisa-could-reveal-the-secret-life-and-death-of-stars">https://www.ozgrav.org/news/future-space-detector-lisa-could-reveal-the-secret-life-and-death-of-stars</a> <br>
+        <a href="https://phys.org/news/2020-02-future-space-detector-lisa-reveal.html">https://phys.org/news/2020-02-future-space-detector-lisa-reveal.html</a>
+    </div>
+</div>
