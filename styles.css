@@ -110,7 +110,7 @@ span{
     float:right;
 }
 .headshot img{
-    width: 80%;
+    width: 75%;
     margin-top: 12%;
 }
 /* Links */
@@ -199,6 +199,20 @@ td {
     border-bottom: 1px solid #ddd;
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
+}
+
+/* Button for github repo link */
+.github {
+    display: inline-block;
+    padding-top: 45px;
+    padding-left: 30px;
+    float: right;
+    cursor: pointer;
+}
+.github a{
+}
+.github img:hover {
+    transform: scale(1.15);
 }
 
 /* Button for ADS link */
