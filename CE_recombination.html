@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CE recombination</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon_mike_lau.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet"> 
+</head>
+
+<div class="grey-block">
+    <nav>
+        <a href="index.html">
+            <img src="images/mike_lau.png" class="logo">
+        </a>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li>
+                <div class="dropdown">
+                    <a href="research.html">RESEARCH</a>
+                    <div class="dropdown-content">
+                        <a href="research.html#RSG">RSG common envelopes</a>
+                        <a href="research.html#recombination">Recombination in common envelopes</a>
+                        <a href="research.html#LISA">LISA double neutron stars</a>
+                    </div>
+                </div> 
+            </li>
+            <li>
+                <div class="dropdown">
+                    <a href="videos.html">VIDEOS</a>
+                    <div class="dropdown-content">
+                        <a href="RSG_CE.html">RSG common envelopes</a>
+                        <a href="CE_recombination.html">Recombination in common envelopes</a>
+                    </div>
+                </div> 
+            </li>
+            <li>
+                <div class="dropdown">
+                    <a href="notes.html">NOTES</a>
+                    <div class="dropdown-content">
+                        <a href="notes/darwin.pdf">Darwin instability</a>
+                        <a href="notes/LIGOeccentricity.pdf">Eccentricity of gravitational wave sources</a>
+                        <a href="notes/mri.pdf">Magnetorotational instability</a>
+                    </div>
+                </div> 
+            </li>
+        </ul>
+    </nav>
+</div>
+
+<div class="research">
+    <div class="research-page">
+        <h1>Videos</h1>
+        <h2>Common-envelope simulations including different sources of recombination energy</h2>
+        <p>These videos are associated with the publication <i>Common envelopes in massive stars II: The distinct roles of hydrogen and helium recombination</i> <a href="https://ui.adsabs.harvard.edu/abs/2022arXiv220606411L/abstract">(Lau et al., 2022b)</a>.</p>
+        <br>
+        <p>For each simulation, we show the density cross-section in the equatorial/orbital plane, in the meridional plane, and in a meridional plane instantaneously co-rotating with the stellar cores.</p>
+
+        <br>
+        <br>
+        <table>
+            <thead>
+              <tr>
+                <th>Type&nbsp;of&nbsp;recombination</th>
+                <th>&nbsp;</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>H + He + H<sub>2</sub></td>
+                <td><a href="#irec0_xy">Equatorial</a> &nbsp; <a href="#irec0_xz">Meridional</a></td>
+              </tr>
+              <tr>
+                <td>He + H</td>
+                <td><a href="#irec1_xy">Equatorial</a> &nbsp; <a href="#irec1_xz">Meridional</a></td>
+              </tr>
+              <tr>
+                <td>He</td>
+                <td><a href="#irec2_xy">Equatorial</a> &nbsp; <a href="#irec2_xz">Meridional</a></td>
+              </tr>
+              <tr>
+                <td>None</td>
+                <td><a href="#irec3_xy">Equatorial</a> &nbsp; <a href="#irec3_xz">Meridional</a></td>
+              </tr>
+              <tr>
+                <td>None, fixed &mu;</td>
+                <td>See the <a href="RSG_CE.html#500k_3M_gasrad_surf">gas + radiation equation of state simulation</a> in Paper I</td>
+              </tr>
+            </tbody>
+        </table>
+        
+        <br>
+        <br>
+
+        <h3>H + He + H<sub>2</sub> recombination energy</h3>
+        <p>These simulations include energy from recombination into H, He and H<sub>2</sub>. This is similar to past 3D hydrodynamical simulations that have included recombination energy through using the MESA or OPAL equation of state tables.</p>
+        <figure>
+            <a id="irec0_xy">
+            <video class="center" src="publication_videos/CE_recombination/irec0_xy.mp4" width="480" controls playsinline muted >Sorry, your browser doesn't support embedded videos</video>
+            </a>
+            <figcaption>H + He + H<sub>2</sub> (equatorial plane).</figcaption>
+        </figure>
+        <br>
+        <figure>
+            <a id="irec0_xz">
+            <video class="center" src="publication_videos/CE_recombination/irec0_xz.mp4" width="480" controls playsinline muted >Sorry, your browser doesn't support embedded videos</video>
+            </a>
+            <figcaption>H + He + H<sub>2</sub> (meridional plane).</figcaption>
+        </figure>
+        <br>
+
+        <hr>
+
+        <h3>H + He recombination energy</h3>
+        <p>These simulations include energy released during H and He atomic recombination.</p>
+        <figure>
+            <a id="irec1_xy">
+            <video class="center" src="publication_videos/CE_recombination/irec1_xy.mp4" width="480" controls playsinline muted >Sorry, your browser doesn't support embedded videos</video>
+            </a>
+            <figcaption>H + He (equatorial plane).</figcaption>
+        </figure>
+        <br>
+        <figure>
+            <a id="irec1_xz">
+            <video class="center" src="publication_videos/CE_recombination/irec1_xz.mp4" width="480" controls playsinline muted >Sorry, your browser doesn't support embedded videos</video>
+            </a>
+            <figcaption>H + He (meridional plane).</figcaption>
+       </figure>
+        <br>
+
+        <hr>
+
+        <h3>He recombination energy</h3>
+        <p>These simulations include only He recombination energy.</p>
+        <figure>
+            <a id="irec2_xy">
+            <video class="center" src="publication_videos/CE_recombination/irec2_xy.mp4" width="480" controls playsinline muted >Sorry, your browser doesn't support embedded videos</video>
+            </a>
+            <figcaption>He (equatorial plane).</figcaption>
+        </figure>
+        <br>
+        <figure>
+            <a id="irec2_xz">
+            <video class="center" src="publication_videos/CE_recombination/irec2_xz.mp4" width="480" controls playsinline muted >Sorry, your browser doesn't support embedded videos</video>
+            </a>
+            <figcaption>He (meridional plane).</figcaption>
+        </figure>
+        <br>
+
+        <hr>
+
+        <h3>No recombination energy</h3>
+        <p>These simulations do not include any recombination energy, but model the effect of increased mean molecular weight, &mu;, associated with recombination.</p>
+        <figure>
+            <a id="irec1_xy">
+            <video class="center" src="publication_videos/CE_recombination/irec1_xy.mp4" width="480" controls playsinline muted >Sorry, your browser doesn't support embedded videos</video>
+            </a>
+            <figcaption>No recombination energy (equatorial plane).</figcaption>
+        </figure>
+        <br>
+        <figure>
+            <a id="irec1_xz">
+            <video class="center" src="publication_videos/CE_recombination/irec1_xz.mp4" width="480" controls playsinline muted >Sorry, your browser doesn't support embedded videos</video>
+            </a>
+            <figcaption>No recombination energy (meridional plane).</figcaption>
+        </figure>
+        <br>
+
+        <hr>
+
+        <h3>No recombination energy, fixed &mu;</h3>
+        <p>This is the case where no recombination energy is included, and the mean molecular weight is held fixed at &mu; = 0.62, corresponding to a fully ionised convective envelope. This case is identical to the gas + radiation equation of state simulation in Paper I (<a href="https://ui.adsabs.harvard.edu/abs/2021arXiv211100923L/abstract">Lau et al., 2022</a>)&mdash;its movies are shown on <a href="https://themikelau.github.io/RSG_CE#500k_3M_gasrad_surf">here</a>.</p>
+
+    </div>
+</div>
