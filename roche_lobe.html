@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roche-lobe plotter</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon_mike_lau.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet"> 
+</head>
+
+<div class="grey-block">
+    <nav>
+        <a href="index.html">
+            <img src="images/mike_lau.png" class="logo">
+        </a>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li>
+                <div class="dropdown">
+                    <a href="research.html">RESEARCH</a>
+                    <div class="dropdown-content">
+                        <a href="research.html#RSG">RSG common envelopes</a>
+                        <a href="research.html#recombination">Recombination in common envelopes</a>
+                        <a href="research.html#LISA">LISA double neutron stars</a>
+                    </div>
+                </div> 
+            </li>
+            <li>
+                <div class="dropdown">
+                    <a href="videos.html">VIDEOS</a>
+                    <div class="dropdown-content">
+                        <a href="RSG_CE.html">RSG common envelopes</a>
+                        <a href="CE_recombination.html">Recombination in common envelopes</a>
+                    </div>
+                </div> 
+            </li>
+            <li>
+                <div class="dropdown">
+                    <a href="notes.html">NOTES</a>
+                    <div class="dropdown-content">
+                        <a href="notes/darwin.pdf">Darwin instability</a>
+                        <a href="notes/LIGOeccentricity.pdf">Eccentricity of gravitational wave sources</a>
+                        <a href="notes/mri.pdf">Magnetorotational instability</a>
+                        <a href="roche_lobe.html">Roche lobe interactive plotter</a>
+                    </div>
+                </div> 
+            </li>
+        </ul>
+    </nav>
+</div>
+
+<div class="research">
+    <div class="research-page">
+        <h2>Interactive Roche lobe plotter</h2>
+        <p>Visualise the Roche potential surface in the orbital plane, using the slider to adjust the mass ratio, q. This figure was created with the <a href="https://plotly.com/python/">Plotly Python graphing library</a>.</p>
+        <br>
+        <p>Coordinates are normalised by the orbital separation, a, with the origin placed at the primary.</p>
+        <br>
+        <center>
+            <iframe src="roche_lobe_plot.html" height="500" width="100%" frameBorder="0"></iframe>
+        </center>
+    </div>
+</div>
