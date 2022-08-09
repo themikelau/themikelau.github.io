@@ -79,7 +79,6 @@ dropdown {
 .detel p{
     color: rgb(221, 221, 221);
     line-height: 22px;
-    width: 80vw;
 }
 .detel p a{
     color:rgb(30, 125, 220);
@@ -107,9 +106,8 @@ span{
 
 /* Images */
 .headshot{
-    width: 80vw;
-    margin-left: auto;  /* to float center*/
-    margin-right: auto;
+    width: 40%;
+    float:right;
 }
 .headshot img{
     width: 75%;
@@ -138,8 +136,8 @@ a {
     min-height: 100vh;
 }
 .research-page{
-    margin-left: 16px;
-    margin-right: 16px;
+    margin-left: 30%;
+    margin-right: 30%;
     height: 100%;
 }
 .research h1{
@@ -167,10 +165,6 @@ a {
 }
 .research a{
     color:rgb(12, 114, 216);
-}
-.research figure video{
-    width:100%;
-    max-width:480px;
 }
 figure {
     display: table;
@@ -252,16 +246,3 @@ hr {
     border: 1px dashed;
 }
 
-
-@media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .research-page{
-        margin-left: 30%;
-        margin-right: 30%;
-    }
-    .detel p{width: 40vw;}
-    .headshot{
-        width: 40%;
-        float:right;
-    }
-}
