@@ -246,3 +246,21 @@ hr {
     border: 1px dashed;
 }
 
+
+
+/* Talks */
+.talk p{
+    margin-left: 5%;
+    height: 100%;
+    margin-bottom: 2%;
+}
+
+/* Video button */
+.video {
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+}
+.video img:hover {
+    transform: scale(1.15);
+}
