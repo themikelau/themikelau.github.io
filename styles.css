@@ -4,6 +4,10 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
+body{
+    background-color: #333333;
+}
+
 .grey-block{
     position: relative;
     width: 100vw;
@@ -70,6 +74,7 @@ dropdown {
     margin-left: 8%;
     margin-top: 10%;
     float:left;
+    width: 40%;
 }
 .detel h1{
     font-size: 50px;
@@ -108,10 +113,12 @@ span{
 .headshot{
     width: 40%;
     float:right;
+    margin-top: 5%;
 }
 .headshot img{
     width: 75%;
-    margin-top: 12%;
+    top:0%;
+    bottom:0;
 }
 /* Links */
 a {
@@ -173,6 +180,7 @@ figure {
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
+    width: 560;
 }
 figcaption {
     color: rgb(75, 75, 75);
@@ -263,4 +271,37 @@ hr {
 }
 .video img:hover {
     transform: scale(1.15);
+}
+
+@media only screen and (max-width: 600px) {
+    .research-page {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .detel{
+        margin-left:5%;
+        margin-right:5%;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .detel p{
+        color: rgb(221, 221, 221);
+        line-height: 22px;
+        width: 95%;
+        margin-top: 20px;
+    }
+    .headshot{
+        width: 80%;
+        float:none;
+        margin-left:5%;
+        margin-right:5%;
+        margin-top: 5%;
+    }
+    .headshot img{
+        width: 100%;
+        margin-left:5%;
+        margin-right:5%;
+        top:0;
+        bottom:0;
+    }
 }
