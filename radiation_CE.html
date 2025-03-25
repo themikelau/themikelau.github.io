@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSG CE</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon_mike_lau.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet"> 
+</head>
+
+<div class="grey-block">
+    <nav>
+        <a href="index.html">
+            <img src="images/mike_lau.png" class="logo">
+        </a>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li>
+                <div class="dropdown">
+                    <a href="research.html">RESEARCH</a>
+                    <div class="dropdown-content">
+                        <a href="research.html#hamstars">Accreting "hamstars"</a>
+                        <a href="research.html#RSG">Red supergiant common envelopes</a>
+                        <a href="research.html#recombination">Recombination in common envelopes</a>
+                        <a href="research.html#planet-engulfment">Planetary engulfment</a>
+                        <a href="research.html#LISA">LISA double neutron stars</a>
+                    </div>
+                </div> 
+            </li>
+            <li>
+                <div class="dropdown">
+                    <a href="videos.html">VIDEOS</a>
+                    <div class="dropdown-content">
+                        <a href="RSG_CE.html">Red supergiant common envelopes</a>
+                        <a href="CE_recombination.html">Recombination in common envelopes</a>
+                        <a href="planet_engulfment.html">Planetary engulfment</a>
+                        <a href="radiation_CE.html">Radiation transport in common envelopes</a>
+                    </div>
+                </div> 
+            </li>
+            <li><a href="talks.html">TALKS</a></li>
+            <li>
+                <div class="dropdown">
+                    <a href="notes.html">NOTES</a>
+                    <div class="dropdown-content">
+                        <a href="notes/darwin.pdf">Darwin instability</a>
+                        <a href="notes/LIGOeccentricity.pdf">Eccentricity of gravitational wave sources</a>
+                        <a href="notes/mri.pdf">Magnetorotational instability</a>
+                        <a href="roche_lobe.html">Roche lobe interactive plotter</a>
+                    </div>
+                </div> 
+            </li>
+        </ul>
+    </nav>
+</div>
+
+<div class="research">
+    <div class="research-page">
+        <h1>Videos</h1>
+        <h2>3D radiation hydrodynamics simulations of common-envelope evolution with a 12 solar mass red supergiant donor</h2>
+        <p>These videos are associated with the work <i>Common envelopes in massive stars III: The obstructive role of radiation transport in envelope ejection</i> <a href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.512.5462L/abstract">(Lau et al. 2025)</a>.</p>
+        <br>
+        <p>For each simulation, we show the density cross-section in the equatorial/orbital plane, in the meridional plane, and in a meridional plane instantaneously co-rotating with the stellar cores.</p>
+
+        <br>
+        <br>
+        <table>
+            <thead>
+              <tr>
+                <th>Physics&nbsp;assumption&nbsp;</th>
+                <th>Cross-section&nbsp;</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Adiabatic</td>
+                <td>See the <a href="RSG_CE.html#500k_3M_gasrad_surf">gas + radiation equation of state simulation</a> in Paper I</td>
+              </tr>
+              <tr>
+                <td>Radiative</td>
+                <td><a href="#rad_xy">Equatorial</a> &nbsp; <a href="#rad_xz">Meridional</a> &nbsp; <a href="#rad_xz_corotate">Meridional (corotating)</a></td>
+              </tr>
+              <tr>
+                <td>Radiative + heating</td>
+                <td><a href="#heated_xy">Equatorial</a> &nbsp; <a href="#heated_xz">Meridional</a> &nbsp; <a href="#heated_xz_corotate">Meridional (corotating)</a></td>
+              </tr>
+              <tr>
+                <td>Side-by-side comparison</td>
+                <td><a href="#gasrad_rad_heated_xy">Equatorial</a> &nbsp; <a href="#gasrad_rad_heated_xz">Meridional</a></td>
+              </tr>
+              <tr>
+                <td>Side-by-side comparison <br> (<i>Adiabatic</i> and <i>Radiative</i> only)</td>
+                <td><a href="#gasrad_rad_xy">Equatorial</a> &nbsp; <a href="#gasrad_rad_xz">Meridional</a></td>
+              </tr>
+            </tbody>
+        </table>
+        
+        <br>
+        <br>
+        <hr>
+        <h3>Adiabatic</h3>
+        <p>This case is identical to the gas + radiation equation of state simulation in Paper I (<a href="https://ui.adsabs.harvard.edu/abs/2021arXiv211100923L/abstract">Lau et al. 2022</a>)&mdash;its movies are shown on <a href="https://themikelau.github.io/RSG_CE#500k_3M_gasrad_surf">here</a>.</p>
+        <br>
+
+        <hr>
+
+        <h3>Radiative</h3>
+        <figure>
+            <a id="rad_xy">
+            <video class="center" src="publication_videos/radiation_CE/rad_rho_xy.mov" width="480" controls playsinline muted >Sorry, your browser doesn't support embedded videos</video>
+            </a>
+            <figcaption>Radiative simulation, equatorial plane.</figcaption>
+        </figure>
+        <br>
+        <figure>
+            <a id="rad_xz">
+            <video class="center" src="publication_videos/radiation_CE/rad_rho_xz.mov" width="480" controls playsinline muted >Sorry, your browser doesn't support embedded videos</video>
+            </a>
+            <figcaption>Radiative simulation, meridional plane.</figcaption>
+        </figure>
+        <br>
+        <figure>
+            <a id="rad_xz_corotate">
+            <video class="center" src="publication_videos/radiation_CE/rad_rho_xz_corotate.mov" width="480" controls playsinline muted >Sorry, your browser doesn't support embedded videos</video>
+            </a>
+            <figcaption>Radiative simulation, meridional plane, corotating frame.</figcaption>
+        </figure>
+        <br>
+
+        <hr>
+
+        <h3>Radiative + heating</h3>
+        <figure>
+            <a id="heated_xy">
+            <video class="center" src="publication_videos/radiation_CE/heated_rho_xy.mov" width="480" controls playsinline muted >Sorry, your browser doesn't support embedded videos</video>
+            </a>
+            <figcaption>Radiative + heating simulation, equatorial plane.</figcaption>
+        </figure>
+        <br>
+        <figure>
+            <a id="heated_xz">
+            <video class="center" src="publication_videos/radiation_CE/heated_rho_xz.mov" width="480" controls playsinline muted >Sorry, your browser doesn't support embedded videos</video>
+            </a>
+            <figcaption>Radiative + heating simulation, meridional plane.</figcaption>
+        </figure>
+        <br>
+        <figure>
+            <a id="heated_xz_corotate">
+            <video class="center" src="publication_videos/radiation_CE/heated_rho_xz_corotate.mov" width="480" controls playsinline muted >Sorry, your browser doesn't support embedded videos</video>
+            </a>
+            <figcaption>Radiative + heating simulation, meridional plane, corotating frame.</figcaption>
+        </figure>
+        <br>
+
+        <hr>
+
+        <h3>Side-by-side comparison</h3>
+        <figure>
+            <a id="gasrad_rad_heated_xy">
+            <video class="center" src="publication_videos/radiation_CE/rho_xy_gasrad_rad_heated.mov" width="480" controls playsinline muted >Sorry, your browser doesn't support embedded videos</video>
+            </a>
+            <figcaption>Equatorial plane. Left: Adiabatic, centre: radiative, right: radiative + heating.</figcaption>
+        </figure>
+        <br>
+        <figure>
+            <a id="gasrad_rad_heated_xz">
+            <video class="center" src="publication_videos/radiation_CE/rho_xz_gasrad_rad_heated.mov" width="480" controls playsinline muted >Sorry, your browser doesn't support embedded videos</video>
+            </a>
+            <figcaption>Meridional plane. Left: Adiabatic, centre: radiative, right: radiative + heating.</figcaption>
+        </figure>
+        <br>
+
+        <hr>
+
+        <h3>Side-by-side comparison (<i>Adiabatic</i> and <i>Radiative</i> only)</h3>
+        <figure>
+            <a id="gasrad_rad_xy">
+            <video class="center" src="publication_videos/radiation_CE/rho_xy_gasrad_rad.mov" width="480" controls playsinline muted >Sorry, your browser doesn't support embedded videos</video>
+            </a>
+            <figcaption>Equatorial plane. Left: Adiabatic, right: radiative.</figcaption>
+        </figure>
+        <br>
+        <figure>
+            <a id="gasrad_rad_xz">
+            <video class="center" src="publication_videos/radiation_CE/rho_xz_gasrad_rad.mov" width="480" controls playsinline muted >Sorry, your browser doesn't support embedded videos</video>
+            </a>
+            <figcaption>Meridional plane. Left: Adiabatic, right: radiative.</figcaption>
+        </figure>
+        <br>
+
+    </div>
+</div>
