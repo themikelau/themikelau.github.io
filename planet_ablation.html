@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planetary engulfment</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon_mike_lau.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet"> 
+</head>
+
+<div class="grey-block">
+    <div id="menu"></div>
+    <script>
+    fetch("menu.html")
+    .then(res => res.text())
+    .then(data => {
+        document.getElementById("menu").innerHTML = data;
+    });
+    </script>
+</div>
+
+
+<div class="research">
+    <div class="research-page">
+        <h1>Videos</h1>
+        <h2>Continuous mass ablation of planets engulfed in stellar envelopes</h2>
+        <p>These videos are associated with the paper <i>Continuous mass ablation of planets engulfed in stellar envelopes</i> <a href="https://arxiv.org/abs/2605.11343">(Lau et al. submitted, 2026)</a>.</p>
+        <br>
+        <iframe
+            width="560" height="315"
+            style="display: block; margin: auto;"
+            src="https://www.youtube.com/embed/iZ3s8fJCD9c?si=QYm1ioy9CIRcBV72"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+        </iframe>
+        <br>
+        <p class="caption">
+            Volume rendering showing the ablation of planetary material in the fiducial simulation at a grid resolution of 1536x1024x1024 (1.6 billion cells). Planetary material is traced by a passive scalar. Credits to Javier Morán-Fraile.
+        </p>
+        <br><br>
+        <iframe
+            width="400" height="560"
+            style="display: block; margin: auto;"
+            src="https://www.youtube.com/embed/mg0fJ6jJRlA?si=3p8T1Djk9J1iVu9G"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+        </iframe>
+        <br>
+        <p class="caption">
+            Slices of the fiducial simulation in the z=0 plane. Top panel: Passive scalar showing planetary material. Middle panel: Density. Bottom panel: Mach number.
+        </p>
+        <br><br>
+        <iframe
+            width="560" height="315"
+            style="display: block; margin: auto;"
+            src="https://www.youtube.com/embed/z8oWGOEP4mQ?si=7ClcU-mDqgGXjSlq"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+        </iframe>
+        <br>
+        <p class="caption">
+            Velocity divergence in the z = 0 slice of the fiducial simulation. Shock fronts appear as thin blue filaments of strongly negative velocity divergence, indicating abrupt compression.
+        </p>
+        <br><br>
+        <iframe
+            width="560" height="315"
+            style="display: block; margin: auto;"
+            src="https://www.youtube.com/embed/_a3hUVFDhTE?si=4FDzhFM64oWoPKWo"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+        </iframe>
+        <br>
+        <p class="caption">
+            Velocity divergence in the z = 0 slice of the fiducial simulation. Shock fronts appear as thin blue filaments of strongly negative velocity divergence, indicating abrupt compression.
+        </p>
+        <br><br>
+        <iframe
+            width="400" height="560"
+            style="display: block; margin: auto;"
+            src="https://www.youtube.com/embed/bOFLGjSQPLQ?si=uImf6hRGpU58mIUF"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+        </iframe>
+        <br>
+        <p class="caption">
+            Illustration of how the flow pattern at a fixed time varies with increasing resolution. The snapshots show the planet passive scalar in the xy-plane for the fiducial simulation.
+        </p>
+        <br><br>
+        <iframe
+            width="400" height="560"
+            style="display: block; margin: auto;"
+            src="https://www.youtube.com/embed/hP4btJPWb94?si=zEqnClqJ1aS75Bu1"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen>
+        </iframe>
+        <br>
+        <p class="caption">
+            Comparison of simulations with different upstream Mach numbers, all with f_m = f_e = 1 and at the grid resolution of 768x512x512. Each panel shows a density slice in the xy-plane.
+        </p>
+        <br><br>
+    </div>
+</div>
